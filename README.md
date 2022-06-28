@@ -1,3 +1,11 @@
+In this project, we intend to extract the header information of the transfer layer and the network layer of the datagrams. To perform the project, npcap and scapy have been used. To receive information from .pcap files, we can use the scapy library and easily find the required information. The following is a review of the program:
+To write the program, we used the scapy rdpcap section, as its name implies,Used to read the pcap file. The time section of the sleep section was also used. Sleep Used to interrupt the program. First, the number of packets and the percentage of the number of packets Is displayed for all, and after a pause (to see this information clearly) The requested information for each packet is displayed and saved to its protocol file.
+To use this app:
+
+1. Put the program file in the place of your .pcap files.
+
+2. After running the program, enter the name of the file whose information you want to extract without an extension
+--------------------------------------------------------------------------------------------------------------------------------
 پروژه استخراج اطلاعات فایل pcap:
 
 در این پروژه قصد داریم اطالعات سرآیند لابه انتقال و لایه شبکه دیتاگرام ها را استخراج کنیم.برای
